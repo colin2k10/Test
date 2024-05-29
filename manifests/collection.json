@@ -1,0 +1,13 @@
+{
+  "id" : "https://colin2k10.github.io/Test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in colin2k10/Test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://colin2k10.github.io/Test/manifests/test-manifest-img.json",
+    "label" : "base_de_donnees.png"
+  } ]
+}
