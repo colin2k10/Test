@@ -1,0 +1,31 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://colin2k10.github.io/Test/manifests/test-manifest-img.json",
+  "@type" : "sc:Manifest",
+  "description" : "Manifest for base_de_donnees.png",
+  "label" : "base_de_donnees.png",
+  "sequences" : [ {
+    "@id" : "https://127.0.0.1:5000/generate_manifest/1272e8c2-0331-4b11-9379-00ae81e42083/sequence/normal",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://127.0.0.1:5000/generate_manifest/1272e8c2-0331-4b11-9379-00ae81e42083/canvas/1",
+      "@type" : "sc:Canvas",
+      "height" : 731,
+      "images" : [ {
+        "@id" : "https://127.0.0.1:5000/generate_manifest/1272e8c2-0331-4b11-9379-00ae81e42083/annotation/1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://127.0.0.1:5000/generate_manifest/1272e8c2-0331-4b11-9379-00ae81e42083/canvas/1",
+        "resource" : {
+          "@id" : "https://127.0.0.1:5000/assets/files/base_de_donnees.png",
+          "@type" : "dctypes:Image",
+          "format" : "image/png",
+          "height" : 731,
+          "width" : 1174
+        }
+      } ],
+      "label" : "Image 1",
+      "width" : 1174
+    } ]
+  } ]
+}
