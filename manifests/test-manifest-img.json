@@ -17,7 +17,7 @@
         "motivation" : "sc:painting",
         "on" : "https://127.0.0.1:5000/generate_manifest/1272e8c2-0331-4b11-9379-00ae81e42083/canvas/1",
         "resource" : {
-          "@id" : "https://127.0.0.1:5000/assets/files/base_de_donnees.png",
+          "@id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/png",
           "height" : 731,
